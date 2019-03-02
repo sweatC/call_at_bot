@@ -34,7 +34,14 @@ sandwich-stream@^2.0.1:
   resolved "https://registry.yarnpkg.com/sandwich-stream/-/sandwich-stream-2.0.2.tgz#6d1feb6cf7e9fe9fadb41513459a72c2e84000fa"
   integrity sha512-jLYV0DORrzY3xaz/S9ydJL6Iz7essZeAfnAavsJ+zsJGZ1MOnsS52yRjU3uF3pJa/lla7+wisp//fxOwOH8SKQ==
 
-telegraf@^3.27.1:
+telegraf-calendar-telegram@^1.5.7:
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/telegraf-calendar-telegram/-/telegraf-calendar-telegram-1.5.7.tgz#f75105bd23bb803759dfcc4b74f94ca84d94e182"
+  integrity sha512-hz8Z3ZEF3zDzgqzl6HQ5c4dyPAP3SUE3Z/QfHQCztlPCT3Kxd1Xs0fV1+Tg6aVcfE5XRIaz4BNey4BxshqCRaQ==
+  dependencies:
+    telegraf "^3.25.0"
+
+telegraf@^3.25.0, telegraf@^3.27.1:
   version "3.27.1"
   resolved "https://registry.yarnpkg.com/telegraf/-/telegraf-3.27.1.tgz#67fbd87a6b4f414a204820f8cb30160e2078b39c"
   integrity sha512-RQUnuNAEEWcLhRap81qwGUUqAy1KcvqANnA0G3pzZqFkhMe6LrTk5lVi9tdOaF0Ud/yOx5fdx0rNPYfiB27Z+w==
